@@ -1,0 +1,1 @@
+Folder ini akan diisi dengan konstanta dari spesifik halaman yang akan di automasi.

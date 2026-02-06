@@ -1,0 +1,1 @@
+Folder ini akan diisi dengan class Page Object Model (POM) jika skenario dari halaman terdapat perhitungan dan validasi custom.
