@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Cypress output
+cypress/videos/
+cypress/*reports*/
+cypress/*reports*.zip
+cypress/screenshots/
+cypress/downloads/
+
+# Cypress config
+cypress.config.ts
+cypress.env.json
+
+# Logs and Reports
+*.log
+*.tmp
+.nyc_output/
+coverage/
+report/
+cucumber-json/
+mochawesome-report/
+test-results/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
+# Environment variables
+.env
+.env.local
+.env.test
+.env.production
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+temp/
+**/*test*.cy.js

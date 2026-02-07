@@ -1,173 +1,139 @@
 # QA Summary Portfolio
 
-## 🇮🇩 Bahasa Indonesia
-
-Repository ini berisi ringkasan dan dokumentasi hasil kerja saya sebagai
-**Quality Assurance (QA)**, mencakup aktivitas **Manual Testing, API Testing,
-dan Automation Testing** pada beberapa studi kasus aplikasi.
-
-Setiap folder project merepresentasikan satu aplikasi dengan scope dan
-pendekatan testing yang berbeda, disusun menyerupai alur kerja QA di
-lingkungan profesional.
-
----
-
-### 📂 Project Overview
-
-#### 1. Admin Dashboard
-Project ini mensimulasikan pengujian aplikasi **Admin / Backoffice** yang
-digunakan untuk mengelola data dan operasional sistem.
-
-**Scope utama:**
-- CRUD data
-- Validasi form
-- Role & access (simulasi)
-- API integration
-- Automation testing untuk flow utama
-
----
-
-### 🧪 Jenis Testing yang Dilakukan
-
-- Functional Testing  
-- Negative Testing  
-- Boundary Value Testing  
-- API Testing (REST)  
-- Automation Testing (UI)  
-- Bug Reporting & Documentation  
-
----
-
-### 🗂️ Struktur Folder per Project
-
-Setiap project memiliki struktur folder sebagai berikut:
-
-- `test-plan/`  
-  Berisi test plan dan test strategy untuk project terkait
-
-- `test-case/`  
-  Berisi test case manual berdasarkan fitur dan flow aplikasi
-
-- `bug report/`  
-  Berisi dokumentasi bug lengkap dengan langkah reproduksi, actual result,
-  expected result, severity, dan priority
-
-- `api-testing/`  
-  Berisi skenario pengujian API dan/atau Postman collection
-
-- `automation/`  
-  Berisi automation test untuk fitur tertentu
-
-- `tools/`  
-  Berisi dokumentasi tools atau workflow pendukung (simulasi Jira, dll)
-
----
-
-### 🛠️ Tools & Technologies
+This repository is a **QA Portfolio** containing documentation and implementations
+of various **Quality Assurance** activities, including:
 
 - Manual Testing  
-- API Testing (Postman)  
-- Automation Testing (Cypress / Playwright – sesuai project)  
-- Git & GitLab  
-- Jira (workflow simulation)  
+- API Testing  
+- Automation Testing (Cypress & Playwright)  
+- Bug Reporting  
+- CI/CD & Docker (basic implementation)  
+
+The repository structure is designed to reflect a **real-world QA workflow**,
+from test planning and execution to automation and documentation.
 
 ---
 
-### 🎯 Tujuan Repository
+## 🧠 Project Highlights
 
-Repository ini dibuat untuk:
-- Menunjukkan pendekatan dan cara berpikir QA dalam menguji aplikasi
-- Mendokumentasikan proses testing secara terstruktur
-- Menjadi portfolio QA untuk kebutuhan profesional
+### 1️⃣ Admin Dashboard
+Simulation of testing for an **Admin / Backoffice application**.
 
-Setiap project difokuskan pada **realistic testing scenario**, bukan sekadar
-contoh teknis.
-
----
-
----
-
-## 🇬🇧 English Version
-
-This repository contains a summary and documentation of my work as a
-**Quality Assurance (QA) Tester**, covering **Manual Testing, API Testing,
-and Automation Testing** across multiple application case studies.
-
-Each project folder represents a single application with its own testing
-scope and approach, structured to reflect real-world QA workflows in a
-professional environment.
-
----
-
-### 📂 Project Overview
-
-#### 1. Admin Dashboard
-This project simulates testing for an **Admin / Backoffice application**
-used to manage system data and operations.
-
-**Main scope:**
+**Testing scope:**
 - CRUD operations
 - Form validation
 - Role & access control (simulation)
 - API integration
-- Automation testing for critical flows
+- Manual test cases & bug reporting
 
 ---
 
-### 🧪 Types of Testing Performed
+### 2️⃣ AI-QA Projects
+Exploration of **AI-assisted Quality Assurance**.
+
+**Key features:**
+- Web-based chatbot UI
+- Prompt-based test case generation
+- AI-assisted testing simulation
+- UI demo built with HTML, CSS, JavaScript, and Tailwind
+
+**Purpose:**
+- Demonstrate how AI can assist QA in:
+  - Writing test cases
+  - Exploratory testing
+  - Test scenario analysis
+
+---
+
+### 3️⃣ Automation Project – Playwright
+Automation testing implemented using **Playwright**.
+
+**Coverage:**
+- UI automation
+- End-to-end testing
+- Scalable test structure
+- Ready for local execution and CI integration
+
+---
+
+### 4️⃣ Automation Web – Cypress
+Web automation testing using **Cypress**.
+
+**Coverage:**
+- UI testing
+- Assertions & reporting
+- Best-practice Cypress project structure
+
+---
+
+### 5️⃣ Bug Reporting
+Professional bug documentation examples.
+
+**Contents:**
+- Bug report templates
+- Sample bug reports including:
+  - Steps to reproduce
+  - Actual results
+  - Expected results
+  - Severity & priority
+
+---
+
+### 6️⃣ CI/CD
+Documentation of **CI/CD pipeline implementation** for testing and automation.
+
+**Coverage:**
+- Pipeline concepts
+- Automation test integration
+- Testing as part of CI process
+
+---
+
+### 7️⃣ Docker
+Simulation of using **Docker for automation testing**.
+
+**Coverage:**
+- Dockerfile configuration
+- Running Playwright automation inside a container
+- Setup and usage documentation
+
+---
+
+## 🧪 Types of Testing Performed
 
 - Functional Testing  
 - Negative Testing  
 - Boundary Value Testing  
 - API Testing (REST)  
 - UI Automation Testing  
+- Exploratory Testing  
+- Regression Testing  
 - Bug Reporting & Documentation  
 
 ---
 
-### 🗂️ Project Folder Structure
-
-Each project follows a consistent folder structure:
-
-- `test-plan/`  
-  Contains the test plan and test strategy for the project
-
-- `test-case/`  
-  Contains manual test cases based on application features and flows
-
-- `bug report/`  
-  Contains detailed bug reports including reproduction steps, actual result,
-  expected result, severity, and priority
-
-- `api-testing/`  
-  Contains API test scenarios and/or Postman collections
-
-- `automation/`  
-  Contains automated tests for selected features
-
-- `tools/`  
-  Contains supporting tools documentation or workflows (Jira simulation, etc.)
-
----
-
-### 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 - Manual Testing  
-- API Testing (Postman)  
-- Automation Testing (Cypress / Playwright – project dependent)  
-- Git & GitLab  
-- Jira (workflow simulation)  
+- Postman (API Testing)  
+- Cypress  
+- Playwright  
+- JavaScript  
+- HTML / CSS / Tailwind  
+- Docker  
+- CI/CD  
+- Git & Version Control  
 
 ---
 
-### 🎯 Repository Purpose
+## 🎯 Repository Purpose
 
 This repository is intended to:
-- Demonstrate my QA mindset and testing approach
+
+- Demonstrate a **professional QA mindset and workflow**
+- Serve as a **QA portfolio** for career opportunities
 - Document testing processes in a structured manner
-- Serve as a professional QA portfolio
+- Combine **manual, automation, and AI-assisted testing**
 
 Each project focuses on **realistic testing scenarios**, rather than
-simplified or purely technical examples.
-
----
+simplified examples or purely theoretical demos.
