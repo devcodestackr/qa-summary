@@ -1,0 +1,33 @@
+{
+  "name": "automation-web-raya",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:debug": "npx cypress open",
+    "test:debug:dev": "npx cypress open --env ENV=dev",
+    "test:debug:staging": "npx cypress open --env ENV=staging",
+    "test:report": "npx cypress run",
+    "test:report:dev": "npx cypress run --env ENV=dev",
+    "test:report:staging": "npx cypress run --env ENV=staging",
+    "test:report --spec": "npx cypress run --spec",
+    "test:electron": "npx cypress open --e2e --browser electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Bank-Raya/Automation-RayaWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.1.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
